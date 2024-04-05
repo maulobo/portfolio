@@ -70,7 +70,7 @@ const Selected = () => {
         ></div>
       </div>
       {/* SELECTED PARTE DOS */}
-      <SelectedTwo />
+      {/* <SelectedTwo /> */}
     </>
   );
 };
