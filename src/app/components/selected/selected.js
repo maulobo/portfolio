@@ -5,6 +5,7 @@ import React, { useEffect, useRef } from "react";
 import SelectedTwo from "./selected-two";
 
 import { ScrollTrigger } from "gsap/all";
+import SelectedThree from "./selected-three";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -73,6 +74,7 @@ const Selected = () => {
       </div>
       {/* SELECTED PARTE DOS */}
       <SelectedTwo />
+      <SelectedThree />
     </>
   );
 };
