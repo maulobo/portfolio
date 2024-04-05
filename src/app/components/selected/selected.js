@@ -1,10 +1,12 @@
 "use client";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import React, { useEffect, useRef } from "react";
 import SelectedTwo from "./selected-two";
 
-gsap.registerPlugin(ScrollTrigger);
+import _ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(_ScrollTrigger);
 
 const Selected = () => {
   const h2Ref = useRef(null);
@@ -70,7 +72,7 @@ const Selected = () => {
         ></div>
       </div>
       {/* SELECTED PARTE DOS */}
-      {/* <SelectedTwo /> */}
+      <SelectedTwo />
     </>
   );
 };
