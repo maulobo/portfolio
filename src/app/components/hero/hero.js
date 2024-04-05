@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="flex-1  flex items-center justify-center">
         <HeroTitle />
       </div>
-      <div className="flex-1 ">3</div>
+      <div className="flex-1 "></div>
     </div>
   );
 };
