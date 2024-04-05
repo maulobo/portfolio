@@ -12,7 +12,13 @@ const Hero = () => {
       <div className="flex-1  flex items-center justify-center">
         <HeroTitle />
       </div>
-      <div className="flex-1 "></div>
+      <div className="flex-1 flex  justify-center items-end pb-20">
+        <p className="flex-1  ">
+          "Ayudo a las marcas a desarrollar su identidad creando sitios web
+          inmersivos y únicos."
+        </p>
+        <p className="flex-1"></p>
+      </div>
     </div>
   );
 };
