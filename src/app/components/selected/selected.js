@@ -4,9 +4,9 @@ import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 import SelectedTwo from "./selected-two";
 
-import _ScrollTrigger from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/all";
 
-gsap.registerPlugin(_ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const Selected = () => {
   const h2Ref = useRef(null);

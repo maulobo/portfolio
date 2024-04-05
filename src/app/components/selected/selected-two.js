@@ -1,6 +1,6 @@
 "use client";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/src/ScrollTrigger";
+import { ScrollTrigger } from "gsap/all";
 import { useEffect, useRef } from "react";
 
 const SelectedTwo = () => {
